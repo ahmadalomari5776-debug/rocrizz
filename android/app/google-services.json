@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "857123725702",
+    "project_id": "docrizzcom",
+    "storage_bucket": "docrizzcom.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:857123725702:android:0bab66a16ebe8d3b274c07",
+        "android_client_info": {
+          "package_name": "com.docrizz.rizz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "857123725702-oj8ac2jiamp87gprqeim0rfkda1gn9df.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.docrizz.rizz",
+            "certificate_hash": "7b51713f45cc8db24652a9ce5c54b91a45ced171"
+          }
+        },
+        {
+          "client_id": "857123725702-rs3a9al2a369aphmjobrqt07lqjlbrr4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwCxWSxmdyNq7SePxPhCodsYbhkcy4YEc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "857123725702-rs3a9al2a369aphmjobrqt07lqjlbrr4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "857123725702-8vcjevjn339kjlv0u6rc2psk27ch5e4s.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.docrizz.ios"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
