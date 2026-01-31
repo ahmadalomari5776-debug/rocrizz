@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>857123725702-7n8fp2vcpglnm473flfvuces5e1h4k8i.apps.googleusercontent.com</string>
+	<string>857123725702-t6798ijphr0egb1emeldo6akn0otd62e.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.857123725702-7n8fp2vcpglnm473flfvuces5e1h4k8i</string>
+	<string>com.googleusercontent.apps.857123725702-t6798ijphr0egb1emeldo6akn0otd62e</string>
 	<key>ANDROID_CLIENT_ID</key>
 	<string>857123725702-oj8ac2jiamp87gprqeim0rfkda1gn9df.apps.googleusercontent.com</string>
 	<key>API_KEY</key>
@@ -15,7 +15,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.docrizz.rizz</string>
+	<string>com.starrizz.ios</string>
 	<key>PROJECT_ID</key>
 	<string>docrizzcom</string>
 	<key>STORAGE_BUCKET</key>
@@ -31,6 +31,22 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:857123725702:ios:4107dc336a845d56274c07</string>
+	<string>1:857123725702:ios:011aa4a9e0bc2097274c07</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.857123725702-t6798ijphr0egb1emeldo6akn0otd62e</string>
+			</array>
+		</dict>
+	</array>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>google</string>
+		<string>com.googleusercontent.apps.857123725702-t6798ijphr0egb1emeldo6akn0otd62e</string>
+	</array>
 </dict>
 </plist>
