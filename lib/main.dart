@@ -12,10 +12,25 @@ import 'package:intl_phone_field/intl_phone_field.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  // Manual Firebase init (uses google-services.json / GoogleService-Info.plist)
-  await Firebase.initializeApp();
-
-  runApp(const RocrizzApp());
+  try {
+    await Firebase.initializeApp().timeout(const Duration(seconds: 10));
+    runApp(const RocrizzApp());
+  } catch (e) {
+    runApp(MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: Scaffold(
+        body: Center(
+          child: Padding(
+            padding: const EdgeInsets.all(16),
+            child: Text(
+              'Startup failed:\n$e',
+              textAlign: TextAlign.center,
+            ),
+          ),
+        ),
+      ),
+    ));
+  }
 }
 
 class RocrizzApp extends StatelessWidget {
