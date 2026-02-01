@@ -49,5 +49,17 @@
 	<string>We need photo access to upload receipts.</string>
 	<key>NSCameraUsageDescription</key>
 	<string>We need camera access to take receipt photos.</string>
+
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.857123725702-t6798ijphr0egb1emeldo6akn0otd62e</string>
+			</array>
+		</dict>
+	</array>
 </dict>
 </plist>
